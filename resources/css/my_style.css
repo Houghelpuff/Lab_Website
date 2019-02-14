@@ -1,13 +1,13 @@
 /* Add any css you want to use for you website here */
 table, tr, th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(173, 173, 173);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-top: 20px;
 }
 
-tr, th {
+tr, th, td {
   padding: 10px;
 }
 
@@ -28,9 +28,6 @@ img.displayed {
   margin-top: 30px;
 }
 
-.homepage-link {
-
-}
 
 .homepage-link:hover {
   color: red;
@@ -39,4 +36,30 @@ img.displayed {
 #stats-par {
   text-align: center;
 }
+
+.home_back {
+  background-image: url('/Users/jacob/Desktop/compSci/software_dev/Lab4_Website/resources/img/ralphie_runners.png');
+  
+
+  height: 100%;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blank_row {
+  height: 45px !important;
+  border-bottom: none !important;
+}
+
+.no-top-border td {
+  border-top: 0 !important;
+}
+
+.table_center {
+  margin-top: 30px;
+}
+
+
 
